@@ -1,0 +1,19 @@
+.Story{
+    text-align: center;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    color: white;
+    background-color: #00000052;
+    letter-spacing: 0.5mm;
+    border-radius: 40px;
+    font-size: 22px;
+}
+.Story h2{
+    border-bottom-style: solid;
+    border-bottom-color: #9a0d0d;
+    width: 15rem;
+    margin-left: 37%;
+}
