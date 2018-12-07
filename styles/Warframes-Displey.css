@@ -1,6 +1,6 @@
 .warframes-display{
     padding-top: 1px;
-    background-color: whitesmoke;
+    background-color: #F0F0F0;
     margin: 3rem;
     color: white;
     margin-top: -8px;
@@ -9,7 +9,7 @@
 .warframe-nav{
     display: grid;
     padding: 50px;
-    grid-template-columns: repeat(12, 7%);
+    grid-template-columns: repeat(11, 8%);
     grid-gap: 1%;
 }
 .warframe-text{
@@ -46,7 +46,20 @@
 }
 .boxe{
     text-align: center;
-    margin-right: 15%;
+    margin-left: 10px;
+    border-right-style: solid;
+    padding-right: 121px;
+    border-radius: 13px;
+}
+.boxe1{
+    height: 87px;
+    text-align: center;
+    margin-left: 10px;
+    border-right-style: solid;
+    padding-right: 121px;
+    border-radius: 13px;
+}
+.boxe-last{
     margin-left: 10px;
 }
 .abc{
@@ -54,16 +67,19 @@
     margin: 3rem;
     margin-right: 3rem;
     background-color: rgb(160, 160, 160);
+    border-style: solid;
 }
 .abc > p{
-    background-color: black;
+    background-color: #1d2046;
     color: white;
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .first{
-    margin-left: 20px;
     display: flex;
+    margin: 3rem;
 }
 .desc{
     padding-top: 11rem;
@@ -71,4 +87,18 @@
 }
 .all-warframes{
     margin-top: 5rem;
+}
+.warframe{
+    margin: 2rem;
+    background-color: #ffffffde;
+}
+.warframe-display-back{
+    position: absolute;
+    margin-left: -3rem;
+    margin-top: 0rem;
+    background-color: #ce0d0df2;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 19px;
 }

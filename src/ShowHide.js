@@ -2,7 +2,7 @@
 function ShowHide() {
     HideAll()
     $(".wiki-h2").show()
-     $(".main").show()
+    $(".main").show()
 
 
 }
@@ -24,6 +24,8 @@ function HideAll() {
     $("#nova").hide()
     $("#rhino").hide()
     $("#saryn").hide()
+    $(".main-weapons").hide()
+
 
 
 }
@@ -33,8 +35,6 @@ function AtachEvents() {
         HideAll()
         $(".main").show()
         $(".wiki-h2").show()
-
-
     });
     $(".Story-Link").on("click", function () {
         HideAll()
@@ -93,6 +93,16 @@ function AtachEvents() {
     $(".Saryn-link").on("click", function () {
         HideAll();
         $("#saryn").show()
+    });
+    $(".warframe-display-back").on("click", function () {
+        HideAll();
+        $(".warframes-display").show()
+        $(".wiki-h2").show()
+    });
+    $(".wepons-a-img").on("click", function () {
+        HideAll();
+        $(".wiki-h2").show()
+        $(".main-weapons").show();
     });
 
 }

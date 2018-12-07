@@ -1,7 +1,6 @@
-@import "https://fonts.google.com/specimen/Open+Sans";
 
 body {
-    font-family: "Open Sans";
+    font-family: sans-serif;
     height: 100%;
     margin: 0px;
     background-size: 100%;
@@ -19,7 +18,7 @@ body {
 }
 .main{
     padding-top: 1px;
-    background-color: white;
+    background-color: #F0F0F0;
     margin: 3rem;
     color: white;
     margin-top: -8px;
@@ -96,7 +95,7 @@ body {
     border-bottom-color: #a40000;
 }
 .nav-box{
-    background-color: lightgray;
+    background-color: #F0F0F0;
     margin: 2rem;
 }
 .story{

@@ -1,0 +1,20 @@
+.main-weapons{
+    margin: 3rem;
+    margin-top: 0;
+    background-color: #F0F0F0;
+    font-size: 22px;
+}
+.weapons{
+    padding: 2rem;
+
+}
+.weapons  h2{
+    border-bottom-color: #a90c2a;
+    border-bottom-style: solid;
+}
+.weapons-description{
+    display: flex;
+}
+.attributes li{
+     margin: 15px;
+}
