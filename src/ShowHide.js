@@ -13,6 +13,7 @@ function HideAll() {
     $(".warframes-display").hide()
     $(".more-info").hide()
     $(".wiki-h2").hide()
+    $("#all-warframes").hide()
     $("#ash").hide()
     $("#ember").hide()
     $("#excal").hide()
@@ -25,6 +26,15 @@ function HideAll() {
     $("#rhino").hide()
     $("#saryn").hide()
     $(".main-weapons").hide()
+    $(".main-companions").hide()
+    $(".companions-displey").hide()
+    $(".carrrire").hide()
+    $(".djinn").hide()
+    $(".taxon").hide()
+    $(".chesa-kubrow").hide()
+    $(".helminth-charger").hide()
+    $(".adarza-kavat").hide()
+
 
 
 
@@ -52,46 +62,58 @@ function AtachEvents() {
     });
     $(".Ash-link").on("click", function () {
         HideAll();
+        $("#all-warframes").show()
         $("#ash").show()
     });
     $(".Ember-link").on("click", function () {
         HideAll();
+        $("#all-warframes").show()
         $("#ember").show()
     });
     $(".Excalibur-link").on("click", function () {
         HideAll();
+        $("#all-warframes").show()
         $("#excal").show()
     });
     $(".Frost-link").on("click", function () {
         HideAll();
+        $("#all-warframes").show()
+
         $("#frost").show()
     });
     $(".Garuda-linl").on("click", function () {
         HideAll();
+        $("#all-warframes").show()
         $("#garuda").show()
     });
     $(".Ivara-link").on("click", function () {
         HideAll();
+        $("#all-warframes").show()
         $("#ivara").show()
     });
     $(".Nekros-link").on("click", function () {
         HideAll();
+        $("#all-warframes").show()
         $("#nekraos").show()
     });
     $(".Nidus-link").on("click", function () {
         HideAll();
+        $("#all-warframes").show()
         $("#nidus").show()
     });
     $(".Nova-link").on("click", function () {
         HideAll();
+        $("#all-warframes").show()
         $("#nova").show()
     });
     $(".Rhino-link").on("click", function () {
         HideAll();
+        $("#all-warframes").show()
         $("#rhino").show()
     });
     $(".Saryn-link").on("click", function () {
         HideAll();
+        $("#all-warframes").show()
         $("#saryn").show()
     });
     $(".warframe-display-back").on("click", function () {
@@ -99,12 +121,57 @@ function AtachEvents() {
         $(".warframes-display").show()
         $(".wiki-h2").show()
     });
+    $(".companions-display-back").on("click", function () {
+        HideAll();
+        $(".main-companions").show();
+        $(".wiki-h2").show()
+    });
     $(".wepons-a-img").on("click", function () {
         HideAll();
         $(".wiki-h2").show()
         $(".main-weapons").show();
     });
-
+    $(".companions-a-img").on("click", function () {
+        HideAll();
+        $(".wiki-h2").show()
+        $(".main-companions").show();
+    });
+    $("#carrier").on("click", function () {
+        HideAll();
+        $(".wiki-h2").show()
+        $(".companions-displey").show()
+        $(".carrrire").show()
+    });
+    $("#djinn").on("click", function () {
+        HideAll();
+        $(".wiki-h2").show()
+        $(".companions-displey").show()
+        $(".djinn").show()
+    });
+    $("#taxon").on("click", function () {
+        HideAll();
+        $(".wiki-h2").show()
+        $(".companions-displey").show()
+        $(".taxon").show()
+    });
+    $("#chesa-kubrow").on("click", function () {
+        HideAll();
+        $(".wiki-h2").show()
+        $(".companions-displey").show()
+        $(".chesa-kubrow").show()
+    });
+    $("#helminth-charger").on("click", function () {
+        HideAll();
+        $(".wiki-h2").show()
+        $(".companions-displey").show()
+        $(".helminth-charger").show()
+    });
+    $("#adarza-kavat").on("click", function () {
+        HideAll();
+        $(".wiki-h2").show()
+        $(".companions-displey").show()
+        $(".adarza-kavat").show()
+    });
 }
 
 

@@ -65,8 +65,9 @@
 .abc{
     text-align: center;
     margin: 3rem;
-    margin-right: 3rem;
+    margin-right: 0rem;
     background-color: rgb(160, 160, 160);
+    margin-left: 0px;
     border-style: solid;
 }
 .abc > p{

@@ -1,0 +1,62 @@
+.main-companions{
+    margin: 3rem;
+    background-color: #EAEBEC;
+    margin-top: 0;
+    padding: 2rem;
+}
+.companions-nav{
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 0px;
+    border: 1px solid #CCCCCC;
+    box-shadow: none;
+    margin-bottom: 10px;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+    background-image: url(https://images.wikia.nocookie.net/__cb20140911231247/warframe/images/0/08/Navboxflower6.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+.companions-nav th{
+    background-color: #afafafba;
+    color: #000000;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 2px 0;
+    text-align: center;
+}
+.companions-nav a{
+    color: #1e5aff;
+    text-decoration: none;
+}
+.companions-display-back{
+    position: absolute;
+    margin-left: -3rem;
+    margin-top: 0rem;
+    background-color: #ce0d0df2;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 19px;
+}
+.abc2{
+    text-align: center;
+    margin: 3rem;
+    margin-right: 0rem;
+    background-color: rgb(160, 160, 160);
+    margin-left: 0px;
+    border-style: solid;
+}
+.abc2 > p{
+    background-color: #1d2046;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.first-companions{
+    display: flex;
+    margin: 3rem;
+    margin-right: 0;
+}
