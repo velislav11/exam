@@ -36,7 +36,7 @@ function HideAll() {
     $(".adarza-kavat").hide()
     $(".all-factions").hide()
     $(".all-archwing").hide()
-
+    //abc
 }
 
 function AtachEvents() {
