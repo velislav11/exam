@@ -34,6 +34,7 @@ function HideAll() {
     $(".chesa-kubrow").hide()
     $(".helminth-charger").hide()
     $(".adarza-kavat").hide()
+    $(".all-factions").hide()
 
 
 
@@ -57,6 +58,12 @@ function AtachEvents() {
     $(".warframes-a-img").on("click", function () {
         HideAll();
         $(".warframes-display").show()
+        $(".wiki-h2").show()
+
+    });
+    $(".faction-a-img").on("click", function () {
+        HideAll();
+        $(".all-factions").show()
         $(".wiki-h2").show()
 
     });

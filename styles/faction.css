@@ -1,0 +1,18 @@
+.all-factions{
+    margin: 3rem;
+    background-color: #EAEBEC;
+    margin-top: 0;
+    padding: 2rem;
+}
+.all-factions h2{
+    border-bottom: solid 1px #a0a0a0;
+    border-radius: 1px;
+}
+.all-factions div{
+    display: flex;
+    text-align: center;
+}
+.all-factions p{
+    margin-left: 11px;
+
+}
