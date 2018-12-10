@@ -145,4 +145,10 @@
         margin-top: 5rem;
         margin-left: 19px;
     }
+    .descripton {
+         display: inherit;
+    }
+    .construction img{
+        width: 10rem;
+    }
 }
