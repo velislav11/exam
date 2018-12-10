@@ -1,4 +1,4 @@
-@media all and (max-width: 600px){
+@media all and (max-width: 675px){
     body{
 
     }
@@ -109,6 +109,7 @@
         text-align: center;
         border-bottom-style: solid;
         width: 10rem;
+        justify-content: center;
         border-bottom-color: #a90c2a;
         margin-left: 26%;
     }
@@ -150,5 +151,83 @@
     }
     .construction img{
         width: 10rem;
+    }
+}
+
+@media all and (max-width: 975px) and (min-width: 676px){
+
+    .section {
+        align-items: center;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(3, auto);
+    }
+    .warframe-nav {
+        display: grid;
+        padding: 50px;
+        grid-template-columns: repeat(6,auto);
+        grid-gap: 1%;
+    }
+    .more-info h2 {
+        font-size: 35px;
+        border-bottom-style: solid;
+        border-bottom-color: #98102a;
+        width: 18rem;
+        margin-left: 30%;
+    }
+    .Story h2 {
+        border-bottom-style: solid;
+        border-bottom-color: #9a0d0d;
+        width: 15rem;
+        margin-left: 26%;
+    }
+    .boxe1 {
+        height: 87px;
+        text-align: center;
+        margin-left: 10px;
+        border-right-style: solid;
+        padding-right: 71px;
+        border-radius: 13px;
+    }
+    .overview h2 {
+        text-align: center;
+        border-bottom-style: solid;
+        width: 10rem;
+        border-bottom-color: #a90c2a;
+        margin-left: 36%;
+    }
+    .weapons-description {
+        display: inherit;
+    }
+    .displey-comp h2{
+        position: absolute;
+        margin-top: 9rem;
+        margin-left: 19px;
+        border-bottom-style: solid;
+        width: 16%;
+        border-bottom-color: #ce0d0df2;
+    }
+    .companions-display-back {
+        position: absolute;
+        margin-top: 0rem;
+        margin-left: 0;
+        background-color: #ce0d0df2;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        padding: 19px;
+    }
+    .desc {
+        padding-top: 11rem;
+        margin-left: 12px;
+
+    }
+    .div-new-players div {
+        text-align: center;
+        background-color: #ce0d0df2;
+        padding: 4px;
+        width: 16%;
+        margin-left: 41%;
+        transform: skew(-11deg);
     }
 }
