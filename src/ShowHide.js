@@ -35,9 +35,7 @@ function HideAll() {
     $(".helminth-charger").hide()
     $(".adarza-kavat").hide()
     $(".all-factions").hide()
-
-
-
+    $(".all-archwing").hide()
 
 }
 
@@ -64,6 +62,12 @@ function AtachEvents() {
     $(".faction-a-img").on("click", function () {
         HideAll();
         $(".all-factions").show()
+        $(".wiki-h2").show()
+
+    });
+    $(".archwing-a-img").on("click", function () {
+        HideAll();
+        $(".all-archwing").show()
         $(".wiki-h2").show()
 
     });

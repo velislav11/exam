@@ -43,7 +43,7 @@ body {
 .section{
     align-items: center;
     display: grid;
-    grid-template-columns: repeat(5, 21%);
+    grid-template-columns: repeat(5, auto);
 
 }
 .war{

@@ -1,0 +1,148 @@
+@media all and (max-width: 600px){
+    body{
+
+    }
+    .section {
+        align-items: center;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(2, auto);
+    }
+    .warframe-nav {
+        display: grid;
+        padding: 50px;
+        grid-template-columns: repeat(6,auto);
+        grid-gap: 1%;
+    }
+    .boxe1 {
+        height: 87px;
+        text-align: center;
+        margin-left: 8px;
+        border-right-style: solid;
+        padding-right: 11px;
+        border-radius: 13px;
+    }
+    .boxe {
+        text-align: center;
+        margin-left: 6%;
+        border-right-style: solid;
+        padding-right: 8%;
+        border-radius: 13px;
+    }
+    .div-new-players div {
+        text-align: center;
+        background-color: #ce0d0df2;
+        padding: 3px;
+        width: 37%;
+        margin-left: 26%;
+        transform: skew(-11deg);
+    }
+    .pley-free {
+        color: black;
+        text-align: center;
+        font-size: 27px;
+        border-bottom-style: solid;
+        width: 53%;
+        margin-left: 21%;
+        font-weight: 700;
+        border-bottom-color: #a40000;
+    }
+    .more-info h2 {
+        font-size: 35px;
+        border-bottom-style: solid;
+        border-bottom-color: #98102a;
+        width: 22rem;
+        margin-left: 11%;
+    }
+    .more-info {
+        text-shadow: -1px 0px 37px rgb(0, 0, 0);
+        font-size: 26px;
+        text-align: center;
+        margin: 2rem;
+        padding: 1rem;
+        padding-left: 13px;
+        padding-right: 13px;
+        background-color: rgba(160,160,160,0.35);
+        color: white;
+        border-radius: 33px;
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+    }
+    .Story {
+        text-align: center;
+        margin-left: 14px;
+        margin-right: 17px;
+        margin-top: 4rem;
+        padding: 1rem;
+        margin-bottom: 4rem;
+        color: white;
+        background-color: #00000052;
+        letter-spacing: 0.5mm;
+        border-radius: 40px;
+        font-size: 22px;
+    }
+    .Story h2 {
+        border-bottom-style: solid;
+        border-bottom-color: #9a0d0d;
+        width: 15rem;
+        margin-left: 26%;
+    }
+    nav a {
+        font-weight: 600;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        margin-left: 3rem;
+        font-size: 20px;
+        padding: 9px;
+    }
+    a.Story-Link{
+        margin-left: 59%;
+        margin-right: 38%;
+    }
+    .first img{
+        width: 10rem;
+        height: 22rem;
+        margin-top: 6rem;
+    }
+    .overview h2 {
+        text-align: center;
+        border-bottom-style: solid;
+        width: 10rem;
+        border-bottom-color: #a90c2a;
+        margin-left: 26%;
+    }
+    .warframes-display {
+        padding-top: 1px;
+        background-color: #F0F0F0;
+        margin: 3rem;
+        color: white;
+        margin-top: -8px;
+    }
+    .weapons-description img{
+        width: 0rem;
+    }
+    .Infested-div img{
+        width: 10rem;
+    }
+    .companions-display-back {
+        position: absolute;
+        margin-top: 0rem;
+        margin-left: 0;
+        background-color: #ce0d0df2;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        padding: 19px;
+    }
+    .desc {
+        padding-top: 11rem;
+        margin-left: 12px;
+
+    }
+    .displey-comp h2{
+        position: absolute;
+        margin-top: 5rem;
+        margin-left: 19px;
+    }
+}
