@@ -17,6 +17,14 @@
     background-position: center bottom;
     background-repeat: no-repeat;
 }
+.displey-comp h2 {
+    position: absolute;
+    margin-top: 9rem;
+    margin-left: 19px;
+    border-bottom-style: solid;
+    width: 16%;
+    border-bottom-color: #ce0d0df2;
+}
 .companions-nav th{
     background-color: #afafafba;
     color: #000000;
@@ -31,7 +39,7 @@
 }
 .companions-display-back{
     position: absolute;
-    margin-left: -3rem;
+    margin-left: 0rem;
     margin-top: 0rem;
     background-color: #ce0d0df2;
     text-align: center;
