@@ -87,8 +87,20 @@
         width: 15rem;
         margin-left: 26%;
     }
+    nav{
+        padding-bottom: 13px;
+        color: black;
+        background-color: #FFFFFF;
+        position: fixed;
+        display: grid;
+        grid-template-columns: repeat(2, 53%);
+        z-index: 200;
+        width: 100%;
+        top: 0px;
+        height: 35px;
+    }
     nav a {
-        font-weight: 600;
+
         color: black;
         text-align: center;
         text-decoration: none;

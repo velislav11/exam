@@ -12,26 +12,23 @@
 }
 nav {
     padding-bottom: 13px;
-    display: flex;
     color: black;
     background-color: #FFFFFF;
     position: fixed;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
     z-index: 200;
     width: 100%;
     top: 0px;
     height: 35px;
-
-
 }
 nav img{
-    padding-left: 21%;
+    margin-top: -7px;
 }
 nav a {
-    font-weight: 600;
     color: black;
     text-align: center;
     text-decoration: none;
-    margin-left: 3rem;
     font-size: 20px;
     padding: 9px;
 }
@@ -48,4 +45,7 @@ nav a:hover {
 
 nav a.active {
     color: white;
+}
+.Saryn-link{
+
 }
